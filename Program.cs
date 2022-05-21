@@ -15,7 +15,7 @@ class Program
         List<Municipio> listaMunicipios = Municipio.GetMunicipios();
 
         Console.WriteLine();
-        Console.WriteLine("--------------------------EJERCICIO NUM.1------------------");
+        Console.WriteLine("--------------------------EJERCICIo------------------");
         Console.WriteLine();
         foreach (Municipio municipio in listaMunicipios)
         {

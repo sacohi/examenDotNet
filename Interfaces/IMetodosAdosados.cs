@@ -4,6 +4,13 @@ namespace examen.NET.Interfaces
 {
     public interface IMetodosAdosados
     {
-        List<Adosado> GetAdosadosJoin();
+        List<AdosadoExtendido> GetAdosadosJoin();
+        List<AdosadoExtendido> GetAdosadosRoom();
+
+        List<AdosadoExtendido> GetAdosadosSize();
+
+        List<AdosadoExtendido> GetAdosadosCadiz();
+
+        List<AdosadoExtendido> GetAdosadosPool();
     }
 }

@@ -5,7 +5,12 @@ namespace examen.NET.Interfaces
     public interface IMetodosPisos
     {
 
-        List<Piso> GetPisosJoin();
+        List<PisoExtendido> GetPisosJoin();
+        List<PisoExtendido> GetPisosRoom();
+
+        List<PisoExtendido> GetPisosSize();
+
+        List<PisoExtendido> GetPisosCadiz();
        
     }
 }

@@ -19,7 +19,7 @@
                 },
                 new Adosado
                 {
-                    Tamaño = 160,
+                    Tamaño = 170,
                     Nombre = "Adosado2",
                     NumHabitaciones = 4,
                     NumBaños = 2,
@@ -28,7 +28,7 @@
                 },
                 new Adosado
                 {
-                    Tamaño = 160,
+                    Tamaño = 180,
                     Nombre = "Adosado3",
                     NumHabitaciones = 5,
                     NumBaños = 3,
@@ -37,7 +37,7 @@
                 },
                 new Adosado
                 {
-                    Tamaño = 160,
+                    Tamaño = 190,
                     Nombre = "Adosado4",
                     NumHabitaciones = 5,
                     NumBaños = 2,

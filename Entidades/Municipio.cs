@@ -3,7 +3,7 @@
     public class Municipio
     {
         public int Id { get; set; }
-        public string NombreMunicipio { get; set; }
+        public string Nombre { get; set; }
 
         public static List<Municipio> GetMunicipios()
         {
@@ -13,22 +13,22 @@
                 new Municipio
                 {
                     Id = 1,
-                    NombreMunicipio = "Cadiz"
+                    Nombre = "Cadiz"
                 },
                 new Municipio
                 {
                     Id = 2,
-                    NombreMunicipio = "Malaga"
+                    Nombre = "Malaga"
                 },
                 new Municipio
                 {
                     Id = 3,
-                    NombreMunicipio = "Sevilla"
+                    Nombre = "Sevilla"
                 },
                 new Municipio
                 {
                     Id = 4,
-                    NombreMunicipio = "Almeria"
+                    Nombre = "Almeria"
                 }
 
             };
